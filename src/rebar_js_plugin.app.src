@@ -7,7 +7,8 @@
                   kernel,
                   stdlib,
                   rebar_js_uglifier_plugin,
-                  rebar_js_concatenator_plugin
+                  rebar_js_concatenator_plugin,
+                  rebar_js_minispade_plugin
                  ]},
   {mod, { rebar_js_plugin, []}},
   {env, []}
