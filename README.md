@@ -1,10 +1,10 @@
 # Rebar JS Plugin
 
-Rebar extensions for JavaScript development with Erlang.  Metapackage
-combining the
-[rebar_js_concatenator_plugin](https://github.com/cmeiklejohn/rebar_js_concatenator_plugin)
-and the
-[rebar_js_uglifier_plugin](https://github.com/cmeiklejohn/rebar_js_uglifier_plugin).
+Rebar extensions for JavaScript development with Erlang.  Metapackage combining
+
+* [rebar_js_concatenator_plugin](https://github.com/cmeiklejohn/rebar_js_concatenator_plugin)
+* [rebar_js_uglifier_plugin](https://github.com/cmeiklejohn/rebar_js_uglifier_plugin)
+* [rebar_js_minispade_plugin](https://github.com/cmeiklejohn/rebar_js_minispade_plugin)
 
 ## Installation
 
@@ -17,9 +17,10 @@ Specify ```rebar_js_plugin``` as a dependency in your ```rebar.config```.
 ]}.
 ```
 
-Then, configure your plugins in your ```rebar.config```.
+Then, configure your plugins in your ```rebar.config``` with the plugins
+you'd like to use.  This module is usageful for getting around rebar
+single plugin_dir errors.
 
 ```erlang
-{plugin_dir, "deps/rebar_js_plugin/src"}.
 {plugins, [rebar_js_concatenator_plugin, rebar_js_uglifier_plugin]}.
 ```
