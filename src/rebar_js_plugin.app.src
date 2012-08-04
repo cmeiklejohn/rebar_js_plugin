@@ -1,0 +1,14 @@
+{application, rebar_js_plugin,
+ [
+  {description, "Rebar JavaScript Extensions"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  rebar_js_uglifier_plugin,
+                  rebar_js_concatenator_plugin
+                 ]},
+  {mod, { rebar_js_plugin, []}},
+  {env, []}
+ ]}.
