@@ -5,6 +5,7 @@ Rebar extensions for JavaScript development with Erlang.  Metapackage combining
 * [rebar_js_concatenator_plugin](https://github.com/cmeiklejohn/rebar_js_concatenator_plugin)
 * [rebar_js_uglifier_plugin](https://github.com/cmeiklejohn/rebar_js_uglifier_plugin)
 * [rebar_js_minispade_plugin](https://github.com/cmeiklejohn/rebar_js_minispade_plugin)
+* [rebar_js_handlebars_plugin](https://github.com/cmeiklejohn/rebar_js_handlebars_plugin)
 
 ## Installation
 
